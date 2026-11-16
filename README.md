@@ -1,6 +1,6 @@
 # Awesome-Global-API-Search-Asset-Discovery
 
-# Top Global API Search & Asset Discovery Ecosystem
+## Top Global API Search & Asset Discovery Ecosystem
 
 **Curated List of SaaS Platforms & Open-Source GitHub Projects**  
 *Focused on Instant Search, Vector Retrieval & Self-Hosted Discovery Engines*  
