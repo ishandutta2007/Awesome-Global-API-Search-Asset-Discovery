@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Mentioned in Awesome" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Global-API-Search-Asset-Discovery/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Global-API-Search-Asset-Discovery?style=flat&color=yellow" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Global-API-Search-Asset-Discovery/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Global-API-Search-Asset-Discovery?style=flat&color=yellow" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Global-API-Search-Asset-Discovery/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Global-API-Search-Asset-Discovery?style=flat&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Global-API-Search-Asset-Discovery/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Global-API-Search-Asset-Discovery?style=flat&color=red" alt="Open Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Global-API-Search-Asset-Discovery/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Global-API-Search-Asset-Discovery?style=flat&color=green" alt="License" /></a>
@@ -62,7 +62,7 @@ Open-source discovery engines offer data sovereignty, zero per-query fees, and c
 
 The table below is sorted in descending order by GitHub stargazers. Each badge links directly to the respective repository's stargazers page.
 
-| 📦 Project | ⭐ Stars | 🎯 Primary Focus | 💻 Language | 📜 License |
+| 📦 Project | ⭐ GitHub_Stars | 🎯 Primary Focus | 💻 Language | 📜 License |
 |:---|:---|:---|:---|:---|
 | **[Elasticsearch](https://github.com/elastic/elasticsearch)** | [![Elasticsearch Stars](https://img.shields.io/github/stars/elastic/elasticsearch?style=social&color=white)](https://github.com/elastic/elasticsearch/stargazers) | Battle-tested full-text and vector search engine powering enterprise logs, discovery, and distributed analytics. | Java | ELv2 / SSPL (Free tier) |
 | **[Meilisearch](https://github.com/meilisearch/meilisearch)** | [![Meilisearch Stars](https://img.shields.io/github/stars/meilisearch/meilisearch?style=social&color=white)](https://github.com/meilisearch/meilisearch/stargazers) | Developer-friendly, blazing-fast instant search engine with typo-tolerance, faceting, and native vector search. | Rust | MIT / BUSL-1.1 |
@@ -125,7 +125,7 @@ If you find this repository helpful for evaluating API search, neural discovery 
 
 Contributions are welcome! To submit a new SaaS platform or open-source discovery engine:
 1. 🍴 Fork this repository.
-2. ✍️ Add your entry following the established table schema (ensure all pricing, trial limits, scale, and star badges are accurate).
+2. ✍️ Add your entry following the established table schema (ensure all pricing, trial limits, scale, and Stars_Badges are accurate).
 3. 🚀 Submit a pull request with a brief explanation of the tool's focus.
 
 ---
@@ -133,3 +133,12 @@ Contributions are welcome! To submit a new SaaS platform or open-source discover
 ## ⚠️ Disclaimer
 
 This repository is an independently curated reference guide and is not affiliated with or endorsed by any listed company. Product pricing, free tier terms, and corporate valuations change periodically; always verify current terms directly on each provider's official pricing portal before making architectural or budgetary commitments.
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Global-API-Search-Asset-Discovery&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Global-API-Search-Asset-Discovery_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Global-API-Search-Asset-Discovery_growth.svg">
+  </picture>
+</a>
