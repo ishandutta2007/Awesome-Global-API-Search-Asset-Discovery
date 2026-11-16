@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#070a12" />
+    </linearGradient>
+
+    <!-- Glowing Accent Gradients -->
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="accentCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.2" />
+    </linearGradient>
+
+    <linearGradient id="accentPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.7" stroke-opacity="0.5" />
+    </pattern>
+
+    <!-- Radial Glows -->
+    <radialGradient id="glowOrb1" cx="20%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glowOrb2" cx="80%" cy="70%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <style>
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 44px;
+      fill: #ffffff;
+      letter-spacing: -0.5px;
+    }
+    .subtitle-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      font-size: 19px;
+      fill: #94a3b8;
+      letter-spacing: 0.2px;
+    }
+    .badge-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      fill: #e2e8f0;
+    }
+
+    /* Dynamic / Animated elements */
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.3; transform: scale(1); }
+      50% { opacity: 0.65; transform: scale(1.08); }
+    }
+    @keyframes floatOrb1 {
+      0%, 100% { transform: translate(0, 0); }
+      50% { transform: translate(30px, -20px); }
+    }
+    @keyframes floatOrb2 {
+      0%, 100% { transform: translate(0, 0); }
+      50% { transform: translate(-25px, 25px); }
+    }
+    @keyframes dashCycle {
+      0% { stroke-dashoffset: 200; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes pingDot {
+      0% { r: 3px; opacity: 1; }
+      100% { r: 12px; opacity: 0; }
+    }
+    @keyframes pillBob {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+    @keyframes pillBobAlt {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(5px); }
+    }
+
+    .pulse-layer {
+      animation: pulseGlow 6s ease-in-out infinite;
+      transform-origin: center;
+    }
+    .orb-1 {
+      animation: floatOrb1 9s ease-in-out infinite;
+    }
+    .orb-2 {
+      animation: floatOrb2 11s ease-in-out infinite;
+    }
+    .dash-line {
+      stroke-dasharray: 8 6;
+      animation: dashCycle 15s linear infinite;
+    }
+    .ping-ring {
+      animation: pingDot 2.5s cubic-bezier(0, 0, 0.2, 1) infinite;
+    }
+    .pill-group-1 {
+      animation: pillBob 4s ease-in-out infinite;
+    }
+    .pill-group-2 {
+      animation: pillBobAlt 4.5s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="420" fill="url(#bgGrad)" rx="16" />
+  <rect width="1200" height="420" fill="url(#grid)" rx="16" />
+
+  <!-- Dynamic Glowing Orbs in Background -->
+  <g class="orb-1">
+    <circle cx="240" cy="140" r="280" fill="url(#glowOrb1)" />
+  </g>
+  <g class="orb-2">
+    <circle cx="960" cy="280" r="280" fill="url(#glowOrb2)" />
+  </g>
+
+  <!-- Background Animated Network / Circuit Lines (Dynamic Aspect behind foreground text) -->
+  <g stroke="#38bdf8" stroke-width="1.2" opacity="0.4" fill="none">
+    <path class="dash-line" d="M 80 80 Q 220 180 360 80 T 640 120 T 920 60 T 1120 120" />
+    <path class="dash-line" d="M 80 340 Q 300 240 500 320 T 800 280 T 1120 320" stroke="#a855f7" />
+    <path class="dash-line" d="M 180 30 L 180 380" stroke="#1e293b" stroke-width="1" />
+    <path class="dash-line" d="M 1020 40 L 1020 380" stroke="#1e293b" stroke-width="1" />
+  </g>
+
+  <!-- Background Dynamic Network Nodes -->
+  <g fill="#38bdf8" opacity="0.6">
+    <circle cx="360" cy="80" r="4" />
+    <circle class="ping-ring" cx="360" cy="80" r="4" stroke="#38bdf8" stroke-width="1.5" fill="none" />
+    
+    <circle cx="920" cy="60" r="4" fill="#a855f7" />
+    <circle class="ping-ring" cx="920" cy="60" r="4" stroke="#a855f7" stroke-width="1.5" fill="none" />
+
+    <circle cx="500" cy="320" r="4" fill="#38bdf8" />
+    <circle class="ping-ring" cx="500" cy="320" r="4" stroke="#38bdf8" stroke-width="1.5" fill="none" />
+
+    <circle cx="800" cy="280" r="4" fill="#a855f7" />
+    <circle class="ping-ring" cx="800" cy="280" r="4" stroke="#a855f7" stroke-width="1.5" fill="none" />
+  </g>
+
+  <!-- Foreground Content Container -->
+  <!-- Top decorative tag -->
+  <g class="pill-group-1">
+    <rect x="440" y="42" width="320" height="34" rx="17" fill="#1e293b" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.6" />
+    <circle cx="458" cy="59" r="5" fill="#38bdf8" />
+    <text x="473" y="64" class="badge-text" fill="#38bdf8">GLOBAL API SEARCH &amp; ASSET DISCOVERY</text>
+  </g>
+
+  <!-- Foreground Main Title with Gradient Fill -->
+  <!-- Subtle backplate drop-shadow behind title for maximum contrast and zero occlusion -->
+  <text x="600" y="145" text-anchor="middle" class="title-text" fill="#ffffff">
+    Awesome API Search &amp; Discovery
+  </text>
+  
+  <text x="600" y="195" text-anchor="middle" class="title-text" font-size="32" fill="url(#primaryGrad)">
+    Enterprise Catalogs • Vector Retrieval • Neural Search
+  </text>
+
+  <!-- Foreground Subtitle -->
+  <text x="600" y="240" text-anchor="middle" class="subtitle-text">
+    Curated SaaS Platforms &amp; Self-Hosted Open-Source Discovery Engines
+  </text>
+
+  <!-- Floating Feature Badges (Dynamic Floating Pill Elements) -->
+  <g class="pill-group-1">
+    <!-- Pill 1: Instant Search -->
+    <rect x="150" y="295" width="180" height="42" rx="21" fill="#0f172a" stroke="#06b6d4" stroke-width="1.2" opacity="0.9" />
+    <circle cx="172" cy="316" r="6" fill="#06b6d4" />
+    <text x="188" y="321" class="badge-text">⚡ Instant Search</text>
+
+    <!-- Pill 3: Permission Fidelity -->
+    <rect x="870" y="295" width="180" height="42" rx="21" fill="#0f172a" stroke="#ec4899" stroke-width="1.2" opacity="0.9" />
+    <circle cx="892" cy="316" r="6" fill="#ec4899" />
+    <text x="908" y="321" class="badge-text">🔒 Permission ACLs</text>
+  </g>
+
+  <g class="pill-group-2">
+    <!-- Pill 2: Vector & Hybrid RAG -->
+    <rect x="360" y="295" width="210" height="42" rx="21" fill="#0f172a" stroke="#818cf8" stroke-width="1.2" opacity="0.9" />
+    <circle cx="382" cy="316" r="6" fill="#818cf8" />
+    <text x="398" y="321" class="badge-text">🧠 Vector &amp; Hybrid RAG</text>
+
+    <!-- Pill 4: Open-Source First -->
+    <rect x="600" y="295" width="240" height="42" rx="21" fill="#0f172a" stroke="#10b981" stroke-width="1.2" opacity="0.9" />
+    <circle cx="622" cy="316" r="6" fill="#10b981" />
+    <text x="638" y="321" class="badge-text">🚀 Self-Hosted Data Sovereignty</text>
+  </g>
+
+  <!-- Bottom Accent Border -->
+  <rect x="0" y="414" width="1200" height="6" fill="url(#primaryGrad)" />
+</svg>

@@ -1,36 +1,52 @@
-# Awesome Global API Search & Asset Discovery [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Global API Search &amp; Asset Discovery Banner" width="100%" />
+</p>
 
-> A curated directory of leading SaaS platforms and open-source engines for enterprise API search, metadata cataloging, vector retrieval, and internal digital asset discovery.
+# 🔍 Awesome Global API Search & Asset Discovery
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Mentioned in Awesome" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Global-API-Search-Asset-Discovery/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Global-API-Search-Asset-Discovery?style=flat&color=yellow" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Global-API-Search-Asset-Discovery/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Global-API-Search-Asset-Discovery?style=flat&color=blue" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Global-API-Search-Asset-Discovery/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Global-API-Search-Asset-Discovery?style=flat&color=red" alt="Open Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Global-API-Search-Asset-Discovery/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Global-API-Search-Asset-Discovery?style=flat&color=green" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+> 🌐 **A curated directory of leading SaaS platforms and open-source engines for enterprise API search, metadata cataloging, vector retrieval, and internal digital asset discovery.**
 
 Looking for high-performance engines to index internal microservice APIs, search across distributed technical documentation, discover data assets, or power typo-tolerant developer search? This guide provides an up-to-date breakdown of SaaS platforms and self-hosted open-source solutions with verified starting prices, exact free tier limitations, company scale, and star-ranked open-source alternatives.
 
 ---
 
-## Table of Contents
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS & Hosted Discovery Platforms](#saas--hosted-discovery-platforms)
-- [Open-Source Search & Asset Discovery Engines](#open-source-search--asset-discovery-engines)
-- [Key Architectural Considerations](#key-architectural-considerations)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+## 📑 Table of Contents
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Discovery Platforms](#️-saas--hosted-discovery-platforms)
+- [⚡ Open-Source Search & Asset Discovery Engines](#-open-source-search--asset-discovery-engines)
+- [🏗️ Key Architectural Considerations](#️-key-architectural-considerations)
+- [📈 Star History](#-star-history)
+- [💖 Support & Community](#-support--community)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#️-disclaimer)
 
 ---
 
-## Sector Overview & Market Dynamics
+## 📊 Sector Overview & Market Dynamics
 
 The global enterprise search and asset discovery market is valued at approximately **$5.8B – $6.7B in 2025–2026** and is expanding at an estimated **CAGR of ~8.7% – 9.3%**, propelled by the rapid adoption of Retrieval-Augmented Generation (RAG), neural vector embeddings, and real-time internal API cataloging.
 
 From a structural perspective, the market is **moderately fragmented at the application layer while remaining highly consolidated at the infrastructure and platform foundation**:
-- **Consolidated Infrastructure Layer:** Established public giants and cognitive platforms (Elasticsearch, Coveo, and hyperscaler-managed offerings from AWS, Microsoft Azure, and Google Cloud) anchor heavy, distributed enterprise indexing with high switching costs and bundled enterprise licenses.
-- **Fragmented AI-Native & Niche Layer:** The surge in Generative AI workplace search (spearheaded by high-growth scale-ups like Glean) and specialized vector engines (Milvus, Qdrant) has produced a dynamic, competitive ecosystem where no single vendor holds a monopoly across enterprise asset discovery, workplace context graphs, and developer-facing API search.
+- 🏢 **Consolidated Infrastructure Layer:** Established public giants and cognitive platforms (Elasticsearch, Coveo, and hyperscaler-managed offerings from AWS, Microsoft Azure, and Google Cloud) anchor heavy, distributed enterprise indexing with high switching costs and bundled enterprise licenses.
+- 🚀 **Fragmented AI-Native & Niche Layer:** The surge in Generative AI workplace search (spearheaded by high-growth scale-ups like Glean) and specialized vector engines (Milvus, Qdrant) has produced a dynamic, competitive ecosystem where no single vendor holds a monopoly across enterprise asset discovery, workplace context graphs, and developer-facing API search.
 
 ---
 
-## SaaS & Hosted Discovery Platforms
+## ☁️ SaaS & Hosted Discovery Platforms
 
 The table below is sorted in descending order by company scale (market capitalization or latest benchmark valuation).
 
-| Product | Description | Company Scale (Valuation / Revenue) | Pricing (Starting) | Free Tier / Trial Limits |
+| 🏢 Product | 📝 Description | 💼 Company Scale (Valuation / Revenue) | 🏷️ Pricing (Starting) | 🎁 Free Tier / Trial Limits |
 |:---|:---|:---|:---|:---|
 | **[Elasticsearch (Elastic Cloud)](https://www.elastic.co/)** | **Distributed search and analytics engine for enterprise logging, API search, and vector storage.** Serverless and managed clusters supporting dense vector fields and Kibana dashboards. | **~$9.2B Market Cap** (NYSE: ESTC; ~$1.4B ARR) | **Serverless pay-as-you-go starting at $0.0108/execution** (~$95/month base managed Standard cluster) | **14-day free trial** on Elastic Cloud (plus Serverless tier with 10,000 ingest & 1,000 search executions free per month; Basic self-managed tier free forever) |
 | **[Glean](https://www.glean.com/)** | **AI-powered workplace search and context-aware internal knowledge discovery.** Connects 100+ enterprise SaaS connectors with native permissions and query-time ACL synchronization. | **$7.2B Valuation** (Series F; ~$300M ARR in 2026) | **$35 to $50/user/month** (minimum 50–100 seats, typical entry contract starts at **$25,000 – $60,000/year**) | **No self-serve free tier or standard free trial** (structured, sales-approved pilot / paid POC upon enterprise qualification) |
@@ -40,13 +56,13 @@ The table below is sorted in descending order by company scale (market capitaliz
 
 ---
 
-## Open-Source Search & Asset Discovery Engines
+## ⚡ Open-Source Search & Asset Discovery Engines
 
 Open-source discovery engines offer data sovereignty, zero per-query fees, and customizable index schemas.
 
 The table below is sorted in descending order by GitHub stargazers. Each badge links directly to the respective repository's stargazers page.
 
-| Project | Stars | Primary Focus | Language | License |
+| 📦 Project | ⭐ Stars | 🎯 Primary Focus | 💻 Language | 📜 License |
 |:---|:---|:---|:---|:---|
 | **[Elasticsearch](https://github.com/elastic/elasticsearch)** | [![Elasticsearch Stars](https://img.shields.io/github/stars/elastic/elasticsearch?style=social&color=white)](https://github.com/elastic/elasticsearch/stargazers) | Battle-tested full-text and vector search engine powering enterprise logs, discovery, and distributed analytics. | Java | ELv2 / SSPL (Free tier) |
 | **[Meilisearch](https://github.com/meilisearch/meilisearch)** | [![Meilisearch Stars](https://img.shields.io/github/stars/meilisearch/meilisearch?style=social&color=white)](https://github.com/meilisearch/meilisearch/stargazers) | Developer-friendly, blazing-fast instant search engine with typo-tolerance, faceting, and native vector search. | Rust | MIT / BUSL-1.1 |
@@ -65,27 +81,55 @@ The table below is sorted in descending order by GitHub stargazers. Each badge l
 
 ---
 
-## Key Architectural Considerations
+## 🏗️ Key Architectural Considerations
 
-1. **Permission Fidelity & Access Control Lists (ACLs):**  
+1. 🔐 **Permission Fidelity & Access Control Lists (ACLs):**  
    Internal API search and asset catalogs index proprietary endpoints, tokens, and data dictionaries. Tools like **Glean** mirror source ACL permissions at runtime, ensuring engineers only view services they are authorized to inspect.
-2. **Indexing & Pricing Mechanics:**  
+2. 💰 **Indexing & Pricing Mechanics:**  
    - Hosted search vendors often separate charges for **records indexed** from **query volume**. Replicas count as distinct records on platforms like Algolia.
    - Self-hosted engines (e.g., Meilisearch, Typesense, OpenSearch) eliminate per-query fees in exchange for operational and memory overhead.
-3. **Hybrid Search (Keyword + Dense Vector):**  
+3. 🧬 **Hybrid Search (Keyword + Dense Vector):**  
    Modern API discovery benefits from hybrid retrieval: keyword search guarantees exact matching on endpoint URLs, REST parameters, and status codes, while semantic embeddings surface related microservices based on natural language queries.
 
 ---
 
-## How to Contribute
+## 📈 Star History
 
-Contributions are welcome! To submit a new SaaS platform or open-source discovery engine:
-1. Fork this repository.
-2. Add your entry following the established table schema (ensure all pricing, trial limits, scale, and star badges are accurate).
-3. Submit a pull request with a brief explanation of the tool's focus.
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Global-API-Search-Asset-Discovery&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Global-API-Search-Asset-Discovery&type=date&legend=top-left)
 
 ---
 
-## Disclaimer
+## 💖 Support & Community
+
+Thank you so much for exploring and supporting this curated resource! 🌟  
+If you find this repository helpful for evaluating API search, neural discovery engines, and enterprise catalog architectures:
+
+- ⭐ **Star this repository** on GitHub to help others discover it.
+- 🍴 **Fork the repo** to benchmark your team's internal evaluations or propose new engines.
+- 📢 **Share it** with fellow platform engineers, DevOps leads, and system architects.
+- ☕ **Buy me a coffee / Sponsor**: If you'd like to back ongoing maintenance and open-source research, consider sponsoring through the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+<p align="center">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-%40ishandutta2007-ea4aaa?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor on GitHub" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-ishandutta2007-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" />
+  </a>
+</p>
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! To submit a new SaaS platform or open-source discovery engine:
+1. 🍴 Fork this repository.
+2. ✍️ Add your entry following the established table schema (ensure all pricing, trial limits, scale, and star badges are accurate).
+3. 🚀 Submit a pull request with a brief explanation of the tool's focus.
+
+---
+
+## ⚠️ Disclaimer
 
 This repository is an independently curated reference guide and is not affiliated with or endorsed by any listed company. Product pricing, free tier terms, and corporate valuations change periodically; always verify current terms directly on each provider's official pricing portal before making architectural or budgetary commitments.
